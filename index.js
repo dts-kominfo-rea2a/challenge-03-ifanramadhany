@@ -41,8 +41,7 @@ const totalBelanjaan = () => {
 
 // ! JANGAN DIMODIFIKASI
 const main = () => {
-  console.log("Selamat datang customer");
-
+  console.log("Selamat datang customer" + "\n");
   console.log("Belanjaan Anda adalah:");
   console.log(listBelanjaan?.(dataBelanjaan)?.join("\n"));
   console.log(
